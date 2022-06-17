@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+
+body {
+    background-image: url("dřevěnábudova_full.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    margin: auto;
+
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-items: center;
+    background-color: gray;
+    border: solid 1px black;
+}
+
+.navigation a {
+    color: black;
+}
+
+.navigation a:hover {
+    color: white;
+    transition: color 1s;
+}
+
+img {
+    min-width: 20px;
+    max-width: none;
+    width: 100%;
+}
+
+img:hover {
+    -moz-box-shadow: 0 0 10px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.navigation > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 100%;
+    list-style: none;
+}
+
+.section-serie {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    z-index: 2;
+    padding: 15px;
+    background-color: lightgrey;
+    background: rgba(206, 204, 204, 0.5);
+    border: solid 1px black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.section-serie > h1 {
+    font-size: 2.5em;
+    width: 100%;
+    text-align: center;
+}
+
+.section-first {
+    margin-top: 160px;
+    background-color: lightgray;
+    background: rgba(206, 204, 204, 0.5);
+    border:  solid 1px black;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.Best_of {
+    background-color: lightgrey;
+    background: rgba(206, 204, 204, 0.5);
+    border:  solid 1px black;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.Best_of img {
+    justify-content: flex-end;
+}
+
+.section-main {
+    background-color: lightgrey;
+    background: rgba(206, 204, 204, 0.5);
+    border:  solid 1px black;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.section-time {
+    background-color: lightgrey;
+    background: rgba(206, 204, 204, 0.5);
+    border:  solid 1px black;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.section-together {
+    background-color: lightgrey;
+    background: rgba(206, 204, 204, 0.5);
+    border:  solid 1px black;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.img-gallery {
+    background-color: lightgrey;
+    background: rgba(206, 204, 204, 0.5);
+    border:  solid 1px black;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    background-color: grey;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    border: solid 1px black;
+    padding: 15px;
+
+}
+
